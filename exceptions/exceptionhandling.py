@@ -23,10 +23,12 @@ class ExceptTest(object):
 
         print "This will be run if except or finally are not returning..."
 
+
 def main():
     excepttest = ExceptTest()
 
     returncode = excepttest.tryexcept()
     print "returncode: %d" % returncode
+
 if __name__ == '__main__':
     main()
