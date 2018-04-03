@@ -7,10 +7,11 @@ class ParamTest(object):
 
     @staticmethod
     def optional_named(mandatory, optional1=0, optional2=0):
-        print'\n**********************'
-        print "Optional parameters:"
-        print'**********************\n'
-        print "mandatory=%s\n optional1=%d\n optional2=%d" % (mandatory, optional1, optional2)
+        print('\n**********************')
+        print("Optional parameters:")
+        print('**********************\n')
+        print("mandatory=%s\n optional1=%d\n optional2=%d" % (mandatory, optional1, optional2))
+
 
 def main():
     paramtest = ParamTest()

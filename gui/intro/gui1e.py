@@ -8,7 +8,7 @@ def quit():
     sys.exit()
 
 def handler(A, B):
-    print "Bye {0} {1}, I hope to see you again soon...".format(A, B)
+    print("Bye {0} {1}, I hope to see you again soon...".format(A, B))
     sys.exit()
 
 

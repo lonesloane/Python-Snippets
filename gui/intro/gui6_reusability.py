@@ -16,7 +16,8 @@ class HelloFrame(Frame):
 
     def message(self):
         self.data += 1
-        print 'Hello frame world {0}'.format(self.data)
-
+        print( 'Hello frame world {0}'.format(self.data))
+        
+        
 if __name__ == '__main__':
     HelloFrame().mainloop()

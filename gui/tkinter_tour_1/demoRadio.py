@@ -2,6 +2,7 @@ from Tkinter import *
 from dialogtable import demos
 from quitter import Quitter
 
+
 class Demo(Frame):
     def __init__(self, parent=None, **options):
         Frame.__init__(self, parent, **options)
@@ -20,11 +21,12 @@ class Demo(Frame):
 
     def onPress(self):
         pick = self.var.get()
-        print 'You pressed', pick
-        print 'result: ', demos[pick]()
+        print('You pressed', pick)
+        print('result: ', demos[pick]())
 
     def report(self):
-        print self.var.get()
+        print(self.var.get())
+
 
 if __name__ == '__main__':
     Demo().mainloop()

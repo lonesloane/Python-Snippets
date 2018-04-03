@@ -2,7 +2,7 @@ from Tkinter import *
 from quitter import Quitter
 
 def fetch():
-    print 'Input => %s' % ent.get()
+    print('Input => %s' % ent.get())
 
 
 root = Tk()

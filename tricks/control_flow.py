@@ -11,6 +11,6 @@ for i in a:
 
 # ! GOOD :
 for i in a[:]:  # create a slice copy of the list
-    print i
+    print(i)
     a.append(str(len(i)))
-print a
+print(a)

@@ -19,7 +19,7 @@ def split_xml_file():
     root = tree.getroot()
     # Loop over xml structure
     for child_of_root in root:
-        print child_of_root.tag, child_of_root.attrib
+        print(child_of_root.tag, child_of_root.attrib)
         folder = xml_file.split(".")[0]
         # Create folder based on xml file name
         if not os.path.exists(os.path.join(xml_file_folder, folder)):

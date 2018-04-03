@@ -12,19 +12,21 @@ def fibonacci(n):
 
 def countdown(n):
     if n <= 0:
-        print "BOUM!!!"
+        print("BOUM!!!")
     else:
-        print n
+        print(n)
         countdown(n-1)
+
 
 def print_n(s, n):
     if n<=0:
         return
     else:
-        print(s*n)
+        print((s*n))
         print_n(s, n-1)
 
-print "Fibonacci(20): ", fibonacci(20)
+
+print(("Fibonacci(20): ", fibonacci(20)))
 
 countdown(10)
 

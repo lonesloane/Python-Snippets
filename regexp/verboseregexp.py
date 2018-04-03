@@ -8,9 +8,9 @@ class RegExTest(object):
 
     @staticmethod
     def checkverbose():
-        print'\n**********************'
-        print "checking a verbose regular expression:"
-        print'**********************\n'
+        print('\n**********************')
+        print( "checking a verbose regular expression:")
+        print('**********************\n')
         pattern = """
         ^                   # Beginning of string
         M{0,4}              # Thousands - O to 4 Ms
@@ -19,12 +19,12 @@ class RegExTest(object):
         (IX|IV|V?I{0,3})    # Units
         $                   # End of string
         """
-        print "M:"
-        print re.search(pattern, "M", re.VERBOSE)
-        print "MCMLXXXIX:"
-        print re.search(pattern, "MCMLXXXIX", re.VERBOSE)
-        print "MMMMDCCCLXXXVIII:"
-        print re.search(pattern, "MMMMDCCCLXXXVIII", re.VERBOSE)
+        print( "M:")
+        print( re.search(pattern, "M", re.VERBOSE))
+        print( "MCMLXXXIX:")
+        print( re.search(pattern, "MCMLXXXIX", re.VERBOSE))
+        print( "MMMMDCCCLXXXVIII:")
+        print( re.search(pattern, "MMMMDCCCLXXXVIII", re.VERBOSE))
 
 def main():
     regextest = RegExTest()

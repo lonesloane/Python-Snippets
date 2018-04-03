@@ -71,5 +71,5 @@ class TestQuickSort(unittest.TestCase):
 
 if __name__ == '__main__':
     seq = [random.randrange(0, 1000) for _ in range(1000)]
-    print quick_sort(seq)
+    print(quick_sort(seq))
 #    unittest.main()

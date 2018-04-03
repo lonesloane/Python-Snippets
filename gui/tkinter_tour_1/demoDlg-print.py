@@ -16,7 +16,7 @@ class Demo(Frame):
         Quitter(self).pack(side=TOP, fill=BOTH)
 
     def printit(self, name):
-        print name, 'return =>', demos[name]()
+        print(name, 'return =>', demos[name]())
 
 
 if __name__ == '__main__':

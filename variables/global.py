@@ -17,24 +17,24 @@ def modify_count_correct():
 
 def modify_known_correct():
     known[0] = 2  # correct since the value is mutable, we are not re-assigning it
-    print known
+    print(known)
     global known  # and we can also access the global variable
     known = {0: 'a', 1: 'b'}
-    print known
+    print(known)
 
 
 def modify_known_wrong():
     known = dict()  # a local known dictionary is created, but the global one is not affected
-    print known
+    print(known)
 
 
 if __name__ == '__main__':
-    print count  # global variable is accessible to __main__
+    print(count)  # global variable is accessible to __main__
     count += 1
-    print count
+    print(count)
     modify_count_correct()
-    print count
-    print known
+    print(count)
+    print(known)
     modify_known_correct()
     modify_known_wrong()
-    print known
+    print(known)

@@ -29,7 +29,7 @@ def grades_variance(grades, average):
 def grades_std_deviation(variance):
     return variance**(1/2)
 
-print_grades(the_grades)
+print(_grades(the_grades))
 gradesSum = grades_sum(the_grades)
 print(gradesSum)
 gradesAverage = grades_average(the_grades)

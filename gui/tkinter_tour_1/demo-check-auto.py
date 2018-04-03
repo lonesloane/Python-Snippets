@@ -10,4 +10,5 @@ for i in range(10):
     states.append(var)
 
 root.mainloop()
-print [var.get() for var in states]
+print( [var.get() for var in states]
+)

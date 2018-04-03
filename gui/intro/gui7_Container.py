@@ -16,7 +16,8 @@ class HelloContainer:
 
     def message(self):
         self.data += 1
-        print 'Hello number {0}'.format(self.data)
+        print( 'Hello number {0}'.format(self.data))
+
 
 if __name__ == '__main__':
     HelloContainer().top.mainloop()

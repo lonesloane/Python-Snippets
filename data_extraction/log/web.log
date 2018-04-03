@@ -1,0 +1,10 @@
+[2016-04-24 01:05:01.425] INFO in module 1: sample message
+[2016-04-24 01:06:01.425] INFO in module 2: sample message
+[2016-04-24 01:07:01.425] WARNING in module 1: sample message
+[2016-04-24 01:08:01.425] INFO in module 2: sample message
+[2016-04-24 01:09:01.425] INFO in module 1: sample message
+[2016-04-24 01:10:01.425] WARNING  in module 1: sample message
+[2016-04-24 01:15:01.425] INFO in module 1: sample message
+[2016-04-24 01:25:01.425] ERROR in module 3: sample message
+[2016-04-24 01:35:01.425] INFO in module 1: sample message
+[2016-04-24 01:45:01.425] INFO in module 2: sample message

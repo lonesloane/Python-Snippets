@@ -3,7 +3,7 @@ __author__ = 'stephane'
 from Tkinter import *
 
 def greetings():
-    print 'Hello stdout world'
+    print('Hello stdout world')
 
 
 win = Frame()

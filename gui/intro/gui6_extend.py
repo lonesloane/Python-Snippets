@@ -9,7 +9,7 @@ class HelloExtender(HelloFrame):
         Button(self, text='Extend', command=sys.exit).pack(side=RIGHT)
 
     def message(self):
-        print 'hello', self.data
+        print('hello', self.data)
 
 if __name__ == '__main__':
     HelloExtender().mainloop()

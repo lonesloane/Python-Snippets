@@ -23,17 +23,17 @@ class Demo(Frame):
         Button(self, text='State', command=self.report).pack(side=RIGHT)
 
     def onMove(self, value):
-        print 'in onMove', value
+        print('in onMove', value)
 
     def onRun(self):
         pos = self.var.get()
-        print 'you picked', pos
+        print('you picked', pos)
         demo = list(demos.values())[pos]
-        print demo()
+        print(demo())
 
     def report(self):
-        print self.var.get()
+        print(self.var.get())
 
 if __name__ == '__main__':
-    print list(demos.keys())
+    print(list(demos.keys()))
     Demo().mainloop()

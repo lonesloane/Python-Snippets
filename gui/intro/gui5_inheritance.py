@@ -10,7 +10,7 @@ class HelloButton(Button):
         self.config(command=self.callback)
 
     def callback(self):
-        print 'Goodbye, see ya...'
+        print('Goodbye, see ya...')
         self.quit()
 
 

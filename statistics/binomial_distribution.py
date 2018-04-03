@@ -60,11 +60,12 @@ def main():
     n = 100
     kvalues = [i for i in range(n+1)]
     for k in kvalues:
-        print k,\
-            "\t", probability(n, k), \
-            "\t", binomial_coeff(n, k), \
-            "\t", total_probability(n, k)
-    print "expected value for n=%d is %r" % (n, expected_value(n))
+        print(k,
+              "\t", probability(n, k),
+              "\t", binomial_coeff(n, k),
+              "\t", total_probability(n, k))
+    print("expected value for n=%d is %r" % (n, expected_value(n)))
+
 
 if __name__ == '__main__':
     main()

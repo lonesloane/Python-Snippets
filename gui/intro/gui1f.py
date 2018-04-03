@@ -10,7 +10,7 @@ class HelloClass:
         widget.pack()
 
     def quit(self):
-        print 'Hello class method World'
+        print('Hello class method World')
         sys.exit()
 
 HelloClass()

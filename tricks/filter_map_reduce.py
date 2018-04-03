@@ -21,13 +21,14 @@ def example():
 
 seq = range(8)
 
-print 'filter'
-print filter(f, range(2, 25))
-print 'map 1'
-print map(cube, range(1, 11))
-print 'map 2'
-print map(add, seq, seq)
-print 'reduce'
-print reduce(add, range(1, 11))
-print 'example'
-print example()
+print( 'filter')
+print( filter(f, range(2, 25)))
+print( 'map 1')
+print( map(cube, range(1, 11)))
+print( 'map 2')
+print( map(add, seq, seq))
+print( 'reduce')
+print( reduce(add, range(1, 11)))
+print( 'example')
+print( example()
+)

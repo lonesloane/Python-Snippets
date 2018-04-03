@@ -3,7 +3,7 @@ import os
 from CGIHTTPServer import CGIHTTPRequestHandler
 import BaseHTTPServer
 
-web_dir = '/home/stephane/Playground/OECD/search/test-ui/dist/org.oecd.exalead.testframework~webclient~0.1/web'
+web_dir = 'flask_site'
 port = 8888
 
 os.chdir(web_dir)

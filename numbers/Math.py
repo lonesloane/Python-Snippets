@@ -1,15 +1,16 @@
 import math
 
 
-def printConstants():
+def print_constants():
     print("pi is: ", math.pi)
     print("e is: ", math.e)
 
+
 def odd(spin):
     if spin % 2 == 1:
-        print True
+        print(True)
         return
-    print False
+    print(False)
 
 
 def run():
@@ -17,5 +18,7 @@ def run():
     odd(4)
     rndm(10)
 
+
 if __name__ == '__main__':
+    print_constants()
     run()

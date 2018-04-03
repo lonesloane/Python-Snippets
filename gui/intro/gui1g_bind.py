@@ -4,10 +4,9 @@ from Tkinter import *
 import sys
 
 def hello(event):
-    print 'Press twice to exit'
-
+    print('Press twice to exit')
 def quit(event):
-    print 'Time to go...'
+    print('Time to go...')
     sys.exit()
 
 widget = Button(None, text='Hello event world!')

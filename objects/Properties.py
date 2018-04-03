@@ -1,3 +1,9 @@
+from collections import Counter
+import math
+
+HASH_TABLE_FILENAME = "A_Filename"
+
+
 class ProximityFinder:
 
     def __init__(self, hash_table_filename=None):
@@ -9,7 +15,7 @@ class ProximityFinder:
         return self._corpus_table
 
     @corpus_table.setter
-    def corpus_table_setter(self, val):
+    def corpus_table(self, val):
         self._corpus_table = val
 
 
@@ -33,7 +39,13 @@ class Temperature(object):
 
     celsius = property(c_get, c_set, doc="Celsius temperature")
 
+
 if __name__ == "__main__":
     temp = Temperature()
     temp.celsius = 30
-    print temp.farenheit
+    print(temp.farenheit)
+
+    finder = ProximityFinder()
+    finder.corpus_table = 15
+    print("corpus table: ", finder.corpus_table)
+

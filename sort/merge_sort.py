@@ -78,5 +78,5 @@ class TestMergeSort(unittest.TestCase):
 
 if __name__ == '__main__':
     seq = [random.randrange(0, 1000) for _ in range(1000)]
-    print merge_sort2(seq)
+    print(merge_sort2(seq))
 #    unittest.main()

@@ -5,7 +5,7 @@ from tkColorChooser import askcolor
 def setBgColor():
     (triple, hexstr) = askcolor()
     if hexstr:
-        print hexstr
+        print(hexstr)
         push.config(bg=hexstr)
 
 

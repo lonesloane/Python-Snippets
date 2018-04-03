@@ -18,8 +18,8 @@ class Demo(Frame):
 
     def report(self):
         for var in self.vars:
-            print var.get(),
-        print ' '
+            print(var.get(),)
+        print(' ')
 
     def tools(self):
         fm = Frame(self)

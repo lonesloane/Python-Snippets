@@ -20,11 +20,11 @@ def makePopups(modnames):
 
 def allStates(demoObjects):
     for obj in demoObjects:
-        print obj.__module__ + ':'
+        print(obj.__module__ + ':')
         if hasattr(obj, 'report'):
             obj.report()
         else:
-            print 'none'
+            print('none')
 
 root = Tk()
 root.title('Popups')

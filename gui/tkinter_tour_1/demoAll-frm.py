@@ -23,11 +23,11 @@ def addComponents(root):
 
 def dumpState():
     for part in parts:
-        print part.__module__ + ':'
+        print(part.__module__ + ':')
         if hasattr(part, 'report'):
             part.report()
         else:
-            print 'none'
+            print('none')
 
 root = Tk()  # make explicit root first
 root.title('Frames')
