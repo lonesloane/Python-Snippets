@@ -47,6 +47,7 @@ def call_fibo(n):
         if i == n: break
     return f_i
 
+
 for i in range(1, 100):
     print('Fibonacci({}): {}'.format(i, fibonacci(i)))
 
